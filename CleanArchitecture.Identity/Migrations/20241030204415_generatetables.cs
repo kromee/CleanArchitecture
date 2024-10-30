@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace CleanArchitecture.Identity.Migrations
 {
-    public partial class GenerateTables : Migration
+    public partial class generatetables : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -161,8 +161,8 @@ namespace CleanArchitecture.Identity.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "79ba8e3f-5c28-42cb-a03e-babcfb0b5bd8", "af66e885-a884-4487-8cf1-193bb3d7246b", "Administrator", "ADMINISTRATOR" },
-                    { "8c26c17c-ffe7-43ad-a3b3-b6d50ca71a63", "476abfdf-9007-429e-ad9c-41e5e464f13c", "Operator", "OPERATOR" }
+                    { "79ba8e3f-5c28-42cb-a03e-babcfb0b5bd8", "41f4749e-cdf2-4701-a4eb-47ef0b81ad59", "Administrador", "ADMINISTRADOR" },
+                    { "8c26c17c-ffe7-43ad-a3b3-b6d50ca71a63", "9bf780b5-43b1-4bd5-adc2-968dfcf825d0", "Operador", "OPERADOR" }
                 });
 
             migrationBuilder.InsertData(
@@ -170,8 +170,8 @@ namespace CleanArchitecture.Identity.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "Apellidos", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "Nombre", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "294d249b-9b57-48c1-9689-11a91abb6447", 0, "Perez", "24f6e7bf-1fb8-471a-a80c-9a5548c7ac37", "juanperez@locahost.com", true, false, null, "Juan", "juanperez@locahost.com", "juanperez", "AQAAAAEAACcQAAAAEPoY1NL8nfyIDPWjpv7Qsvt/GmltN5fvLoz3LEdB8EnSLJrX2C7F4typ4u6B1Jo18A==", null, false, "4bdfd5da-f264-493c-b718-662ab0415459", false, "juanperez" },
-                    { "f284b3fd-f2cf-476e-a9b6-6560689cc48c", 0, "Drez", "0e53003f-72cd-44ef-a53c-19a30ed0aa15", "admin@locahost.com", true, false, null, "Vaxi", "admin@locahost.com", "vaxidrez", "AQAAAAEAACcQAAAAENWtdrn6GOb1rjLWPIwP2qHmJR+FPwXhAKlpL8c7WnhrHwR19aE4kGV2B04r+NAelQ==", null, false, "ba36f476-a51b-42b9-ae3e-f9d56a02cec3", false, "vaxidrez" }
+                    { "294d249b-9b57-48c1-9689-11a91abb6447", 0, "Eduardo", "0be14c03-9021-49ef-a892-a778a3b09fc4", "Eduardo@locahost.com", true, false, null, "Eduardo", "Eduardo@locahost.com", "Eduardo", "AQAAAAEAACcQAAAAEKbkcfIfWCnxuFmnq0bavWhXTt5Je0QXu0wIFq0vt2lL7kfWk6J0izCXaTQWJ+uwsg==", null, false, "ea1d2d9b-3885-4ff3-aa78-0b3e42785e8d", false, "Eduardo" },
+                    { "f284b3fd-f2cf-476e-a9b6-6560689cc48c", 0, "Admin", "14a7c0ce-3d98-4990-9c09-7c3bf519d013", "admin@locahost.com", true, false, null, "admin", "admin@locahost.com", "admin", "AQAAAAEAACcQAAAAEIcxgh37nKIlrfdvWk2f8Fu4NXGRv/XCgRo81Xa2IxDf4OS4iqEgJhyBxpYnBBaOZQ==", null, false, "56105fb2-f81a-40b7-be7e-3e1b4795bca7", false, "admin" }
                 });
 
             migrationBuilder.InsertData(

@@ -18,7 +18,7 @@ namespace CleanArchitecture.API.Controllers
         }
 
         [HttpPost(Name = "CreateDirector")]
-        //[Authorize(Roles = "Administrator")]
+        //[Authorize(Roles = "Administrador")]
         [ProducesResponseType((int)HttpStatusCode.OK)]
         public async Task<ActionResult<int>> CreateDirector([FromBody] CreateDirectorCommand command)
         {

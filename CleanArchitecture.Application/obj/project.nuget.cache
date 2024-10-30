@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dpCveUbMsu9YSD0WURfmIN7HOV6TtL6NymU5AaKcjt6due5xsT5SniYgpHZbqJCk4JSBJK7VsCdon5hApzvCRg==",
+  "dgSpecHash": "Po5FQ2qDNig=",
   "success": true,
   "projectFilePath": "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Application/CleanArchitecture.Application.csproj",
   "expectedPackageFiles": [
@@ -17,8 +17,8 @@
     "/Users/eduardodominguez/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
     "/Users/eduardodominguez/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "/Users/eduardodominguez/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "/Users/eduardodominguez/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.31/microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
-    "/Users/eduardodominguez/.nuget/packages/microsoft.netcore.app.ref/6.0.31/microsoft.netcore.app.ref.6.0.31.nupkg.sha512"
+    "/Users/eduardodominguez/.nuget/packages/microsoft.netcore.app.ref/6.0.30/microsoft.netcore.app.ref.6.0.30.nupkg.sha512",
+    "/Users/eduardodominguez/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.30/microsoft.aspnetcore.app.ref.6.0.30.nupkg.sha512"
   ],
   "logs": []
 }

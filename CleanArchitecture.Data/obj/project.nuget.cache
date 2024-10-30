@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LnT9B2hmIYvxDzMP3a/TyMZ47em8Lvd4B/wnx9Q0F57PrScpmyNcnkj4BpWw2zdI4TBrKruByKHtFpFfH/eeUw==",
+  "dgSpecHash": "kEkxQTaN+rE=",
   "success": true,
   "projectFilePath": "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Data/CleanArchitecture.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -90,8 +90,8 @@
     "/Users/eduardodominguez/.nuget/packages/system.windows.extensions/4.7.0/system.windows.extensions.4.7.0.nupkg.sha512",
     "/Users/eduardodominguez/.nuget/packages/system.xml.readerwriter/4.0.11/system.xml.readerwriter.4.0.11.nupkg.sha512",
     "/Users/eduardodominguez/.nuget/packages/system.xml.xdocument/4.0.11/system.xml.xdocument.4.0.11.nupkg.sha512",
-    "/Users/eduardodominguez/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.31/microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
-    "/Users/eduardodominguez/.nuget/packages/microsoft.netcore.app.ref/6.0.31/microsoft.netcore.app.ref.6.0.31.nupkg.sha512"
+    "/Users/eduardodominguez/.nuget/packages/microsoft.netcore.app.ref/6.0.30/microsoft.netcore.app.ref.6.0.30.nupkg.sha512",
+    "/Users/eduardodominguez/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.30/microsoft.aspnetcore.app.ref.6.0.30.nupkg.sha512"
   ],
   "logs": []
 }

@@ -6,6 +6,9 @@ namespace CleanArchitecture.Infrastructure.Persistence
 {
     public class StreamerDbContext : DbContext
     {
+        public StreamerDbContext() {
+        }
+
         public StreamerDbContext(DbContextOptions<StreamerDbContext> options) : base(options)
         {
         }
@@ -13,7 +16,7 @@ namespace CleanArchitecture.Infrastructure.Persistence
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-           optionsBuilder.UseSqlServer(@"Data Source=192.168.1.86; 
+           optionsBuilder.UseSqlServer(@"Data Source=192.168.1.86, 1433; 
                 Initial Catalog=Streamer;user id=sa;password=wincaja2023")
             .LogTo(Console.WriteLine, new[] { DbLoggerCategory.Database.Command.Name }, Microsoft.Extensions.Logging.LogLevel.Information)
             .EnableSensitiveDataLogging();

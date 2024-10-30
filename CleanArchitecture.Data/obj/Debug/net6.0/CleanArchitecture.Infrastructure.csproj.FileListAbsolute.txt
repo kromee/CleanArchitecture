@@ -30,9 +30,9 @@ C:/CleanArchitecture/CleanArchitecture/CleanArchitecture.Data/obj/Debug/net6.0/C
 /Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Data/obj/Debug/net6.0/CleanArchitecture.Infrastructure.AssemblyInfoInputs.cache
 /Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Data/obj/Debug/net6.0/CleanArchitecture.Infrastructure.AssemblyInfo.cs
 /Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Data/obj/Debug/net6.0/CleanArchitecture.Infrastructure.csproj.CoreCompileInputs.cache
-/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Data/obj/Debug/net6.0/CleanArchitecture.Infrastructure.csproj.CopyComplete
 /Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Data/obj/Debug/net6.0/CleanArchitecture.Infrastructure.dll
 /Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Data/obj/Debug/net6.0/refint/CleanArchitecture.Infrastructure.dll
 /Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Data/obj/Debug/net6.0/CleanArchitecture.Infrastructure.pdb
 /Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Data/obj/Debug/net6.0/CleanArchitecture.Infrastructure.genruntimeconfig.cache
 /Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Data/obj/Debug/net6.0/ref/CleanArchitecture.Infrastructure.dll
+/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Data/obj/Debug/net6.0/CleanArchitecture.Infrastructure.csproj.CopyComplete

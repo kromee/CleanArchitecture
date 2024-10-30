@@ -13,7 +13,6 @@ C:/CleanArchitecture/CleanArchitecture/CleanArchitecture.Domain/obj/Debug/net6.0
 /Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Domain/bin/Debug/net6.0/CleanArchitecture.Domain.deps.json
 /Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Domain/bin/Debug/net6.0/CleanArchitecture.Domain.dll
 /Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Domain/bin/Debug/net6.0/CleanArchitecture.Domain.pdb
-/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Domain/obj/Debug/net6.0/CleanArchitecture.Domain.csproj.AssemblyReference.cache
 /Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Domain/obj/Debug/net6.0/CleanArchitecture.Domain.GeneratedMSBuildEditorConfig.editorconfig
 /Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Domain/obj/Debug/net6.0/CleanArchitecture.Domain.AssemblyInfoInputs.cache
 /Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Domain/obj/Debug/net6.0/CleanArchitecture.Domain.AssemblyInfo.cs
@@ -22,3 +21,4 @@ C:/CleanArchitecture/CleanArchitecture/CleanArchitecture.Domain/obj/Debug/net6.0
 /Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Domain/obj/Debug/net6.0/refint/CleanArchitecture.Domain.dll
 /Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Domain/obj/Debug/net6.0/CleanArchitecture.Domain.pdb
 /Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Domain/obj/Debug/net6.0/ref/CleanArchitecture.Domain.dll
+/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Domain/obj/Debug/net6.0/CleanArchitecture.Domain.sourcelink.json
