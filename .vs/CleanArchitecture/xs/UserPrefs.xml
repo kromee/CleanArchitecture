@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{CEB6C3D1-1977-4A36-848E-7BDC4F598DDC}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.ConsoleApp/Program.cs" relfile="CleanArchitecture.ConsoleApp/Program.cs" line="13" column="1" />
+      <Breakpoint file="/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.ConsoleApp/Program.cs" relfile="CleanArchitecture.ConsoleApp/Program.cs" line="14" column="1" />
+      <Breakpoint file="/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.ConsoleApp/Program.cs" relfile="CleanArchitecture.ConsoleApp/Program.cs" line="15" column="1" />
+      <Breakpoint file="/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Data/Persistence/StreamerDbContext.cs" relfile="CleanArchitecture.Data/Persistence/StreamerDbContext.cs" line="50" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CleanArchitecture.API/appsettings.json">
+    <Files>
+      <File FileName="CleanArchitecture.Data/Persistence/StreamerDbContext.cs" Line="20" Column="10" />
+      <File FileName="CleanArchitecture.Data/Email/EmailService.cs" Line="1" Column="1" />
+      <File FileName="CleanArchitecture.API/appsettings.json" Line="7" Column="29" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CleanArchitecture">
+            <Node name="src">
+              <Node name="API" expanded="True">
+                <Node name="CleanArchitecture.API">
+                  <Node name="Errors" expanded="True" />
+                  <Node name="appsettings.json" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Infrastructure" expanded="True">
+                <Node name="CleanArchitecture.Infrastructure">
+                  <Node name="Email" expanded="True" />
+                  <Node name="Persistence" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.src.API.CleanArchitecture.API PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+</Properties>

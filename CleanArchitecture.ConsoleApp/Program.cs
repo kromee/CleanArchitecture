@@ -3,19 +3,13 @@ using CleanArchitecture.Domain;
 using Microsoft.EntityFrameworkCore;
 
 StreamerDbContext dbContext = new();
-
-
-await AddNewRecords();
- QueryStreaming();
-//await QueryFilter();
-//await QueryMethods();
-//await QueryLinq();
-await TrackingAndNotTracking();
 await AddNewDirectorWithVideo();
-await MultipleEntitiesQuery();
-
-
-
+//await TrackingAndNotTracking();
+//await QueryLinq();
+//await QueryMethods();
+//await QueryFilter();
+//QueryStreaming();
+//await AddNewRecords();
 
 Console.WriteLine("Presione cualquier tecla para terminar el programa");
 Console.ReadKey();

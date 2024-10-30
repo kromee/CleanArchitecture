@@ -1,0 +1,443 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.API/CleanArchitecture.API.csproj": {}
+  },
+  "projects": {
+    "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.API/CleanArchitecture.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.API/CleanArchitecture.API.csproj",
+        "projectName": "CleanArchitecture.API",
+        "projectPath": "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.API/CleanArchitecture.API.csproj",
+        "packagesPath": "/Users/eduardodominguez/.nuget/packages/",
+        "outputPath": "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eduardodominguez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.317/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Application/CleanArchitecture.Application.csproj": {
+                "projectPath": "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Application/CleanArchitecture.Application.csproj"
+              },
+              "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Data/CleanArchitecture.Infrastructure.csproj": {
+                "projectPath": "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Data/CleanArchitecture.Infrastructure.csproj"
+              },
+              "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Identity/CleanArchitecture.Identity.csproj": {
+                "projectPath": "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Identity/CleanArchitecture.Identity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Application/CleanArchitecture.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Application/CleanArchitecture.Application.csproj",
+        "projectName": "CleanArchitecture.Application",
+        "projectPath": "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Application/CleanArchitecture.Application.csproj",
+        "packagesPath": "/Users/eduardodominguez/.nuget/packages/",
+        "outputPath": "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eduardodominguez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Domain/CleanArchitecture.Domain.csproj": {
+                "projectPath": "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Domain/CleanArchitecture.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.6, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[10.3.6, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Data/CleanArchitecture.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Data/CleanArchitecture.Infrastructure.csproj",
+        "projectName": "CleanArchitecture.Infrastructure",
+        "projectPath": "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Data/CleanArchitecture.Infrastructure.csproj",
+        "packagesPath": "/Users/eduardodominguez/.nuget/packages/",
+        "outputPath": "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eduardodominguez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Application/CleanArchitecture.Application.csproj": {
+                "projectPath": "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Application/CleanArchitecture.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.25.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Domain/CleanArchitecture.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Domain/CleanArchitecture.Domain.csproj",
+        "projectName": "CleanArchitecture.Domain",
+        "projectPath": "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Domain/CleanArchitecture.Domain.csproj",
+        "packagesPath": "/Users/eduardodominguez/.nuget/packages/",
+        "outputPath": "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eduardodominguez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Identity/CleanArchitecture.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Identity/CleanArchitecture.Identity.csproj",
+        "projectName": "CleanArchitecture.Identity",
+        "projectPath": "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Identity/CleanArchitecture.Identity.csproj",
+        "packagesPath": "/Users/eduardodominguez/.nuget/packages/",
+        "outputPath": "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Identity/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eduardodominguez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Application/CleanArchitecture.Application.csproj": {
+                "projectPath": "/Users/eduardodominguez/Desktop/Cursos/05_CleanArchitecture/CleanArchitecture/CleanArchitecture/CleanArchitecture.Application/CleanArchitecture.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.15.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
