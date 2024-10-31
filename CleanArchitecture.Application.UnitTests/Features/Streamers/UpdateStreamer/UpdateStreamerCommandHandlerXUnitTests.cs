@@ -14,6 +14,7 @@ namespace CleanArchitecture.Application.UnitTests.Features.Streamers.UpdateStrea
 {
     public class UpdateStreamerCommandHandlerXUnitTests
     {
+
         private readonly IMapper _mapper;
         private readonly Mock<UnitOfWork> _unitOfWork;
         private readonly Mock<IEmailService> _emailService;
