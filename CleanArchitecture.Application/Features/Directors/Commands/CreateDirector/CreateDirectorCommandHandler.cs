@@ -29,7 +29,7 @@ namespace CleanArchitecture.Application.Features.Directors.Commands.CreateDirect
 
             if (result <= 0)
             {
-                _logger.LogError("No se inserto el record del director");
+                _logger.LogError("No se insertó el record del director");
                 throw new Exception("No se pudo insertar el record del director");
             }
 
